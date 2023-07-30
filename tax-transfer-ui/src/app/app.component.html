@@ -1,0 +1,24 @@
+<p>
+  <mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>TAX TRANSFER UI</span>
+    <span class="example-spacer"></span>
+    <span>RAJ MOHAN</span>
+    <button mat-icon-button class="icon" aria-label="login-button">
+      <mat-icon>login</mat-icon>
+    </button>
+  </mat-toolbar>
+</p>
+
+<section>
+  <div class="example-button-row">
+    <button mat-raised-button [routerLink]="['tasks']">Tasks</button>
+    <button mat-raised-button>Forms</button>
+    <button mat-raised-button>Reports</button>
+  </div>
+</section>
+
+<router-outlet></router-outlet>
+
