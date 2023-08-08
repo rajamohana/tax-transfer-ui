@@ -17,12 +17,16 @@ import {MatRadioModule} from '@angular/material/radio';
 import { MatPaginatorModule} from '@angular/material/paginator';
 import { MatTableModule} from '@angular/material/table';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TasksComponent
+    TasksComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
