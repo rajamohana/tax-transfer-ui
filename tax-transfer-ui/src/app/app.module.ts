@@ -17,6 +17,7 @@ import {MatRadioModule} from '@angular/material/radio';
 import { MatPaginatorModule} from '@angular/material/paginator';
 import { MatTableModule} from '@angular/material/table';
 import {MatCheckboxModule} from '@angular/material/checkbox';
+import {MatExpansionModule} from '@angular/material/expansion';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -35,7 +36,8 @@ import { FooterComponent } from './footer/footer.component';
     MatPaginatorModule,
     MatTableModule,
     MatCheckboxModule,
-    MatToolbarModule, MatButtonModule, MatIconModule, MatSelectModule, MatFormFieldModule, MatInputModule, FormsModule, MatRadioModule
+    MatToolbarModule, MatButtonModule, MatIconModule, MatSelectModule, MatFormFieldModule, MatInputModule, FormsModule, MatRadioModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
